@@ -1,0 +1,6 @@
+framework module SCVoiceConvert {
+  umbrella header "SCVoiceConvert-umbrella.h"
+
+  export *
+  module * { export * }
+}

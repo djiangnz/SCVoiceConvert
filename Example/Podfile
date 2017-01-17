@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SCVoiceConvert_Example' do
+  pod 'SCVoiceConvert', :path => '../'
+
+  target 'SCVoiceConvert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

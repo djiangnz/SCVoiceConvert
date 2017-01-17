@@ -1,0 +1,16 @@
+PODS:
+  - SCVoiceConvert (0.1.0)
+
+DEPENDENCIES:
+  - SCVoiceConvert (from `../`)
+
+EXTERNAL SOURCES:
+  SCVoiceConvert:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SCVoiceConvert: ac53d522dcf4fbc42a45466ce519f4c86ba4cb58
+
+PODFILE CHECKSUM: eac8f6fc0b32bc65a75e81e3fa05e913a8378365
+
+COCOAPODS: 1.1.1
