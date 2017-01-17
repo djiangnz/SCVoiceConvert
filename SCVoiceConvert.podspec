@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "lastobject@gmail.com" => "lastobject@gmail.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://git.oschina.net/dl_zytec/SCVoiceConvert.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/lastObject/SCVoiceConvert.git", :tag => s.version.to_s }
   s.source_files = "SCVoiceConvert/**/*.{h,m,mm}"
   s.vendored_libraries = 'SCVoiceConvert/**/*.a'
   s.library      = "stdc++"
