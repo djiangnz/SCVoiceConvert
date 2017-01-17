@@ -1,22 +1,20 @@
 {
   "name": "SCVoiceConvert",
   "version": "0.1.0",
-  "summary": "A short description of SCVoiceConvert.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/SCVoiceConvert",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "summary": "VoiceConvert.",
+  "homepage": "http://www.zytec.cn",
+  "license": "MIT",
   "authors": {
     "lastobject@gmail.com": "lastobject@gmail.com"
   },
+  "platforms": {
+    "ios": "7.0"
+  },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/SCVoiceConvert.git",
+    "git": "https://github.com/lastObject/SCVoiceConvert.git",
     "tag": "0.1.0"
   },
-  "platforms": {
-    "ios": "8.0"
-  },
-  "source_files": "SCVoiceConvert/Classes/**/*"
+  "source_files": "SCVoiceConvert/**/*.{h,m,mm}",
+  "vendored_libraries": "SCVoiceConvert/**/*.a",
+  "libraries": "stdc++"
 }
