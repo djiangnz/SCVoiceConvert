@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SCVoiceConvert"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "VoiceConvert."
   s.homepage     = "http://www.zytec.cn"
   s.license      = "MIT"
@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.source_files = "SCVoiceConvert/**/*.{h,m,mm}"
   s.vendored_libraries = 'SCVoiceConvert/**/*.a'
   s.library      = "stdc++"
-
+  s.public_header_files = 'SCVoiceConvert/Classes/*.h'
 end
