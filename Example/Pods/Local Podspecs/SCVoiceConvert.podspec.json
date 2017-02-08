@@ -1,6 +1,6 @@
 {
   "name": "SCVoiceConvert",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "VoiceConvert.",
   "homepage": "http://www.zytec.cn",
   "license": "MIT",
@@ -12,9 +12,10 @@
   },
   "source": {
     "git": "https://github.com/lastObject/SCVoiceConvert.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "source_files": "SCVoiceConvert/**/*.{h,m,mm}",
   "vendored_libraries": "SCVoiceConvert/**/*.a",
-  "libraries": "stdc++"
+  "libraries": "stdc++",
+  "public_header_files": "SCVoiceConvert/Classes/*.h"
 }

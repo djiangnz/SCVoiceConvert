@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0725C6C5B7F0329D329C674DF70689F0 /* amrFileCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F9714FC1A766A4B393F35118CA97F0 /* amrFileCodec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07DEFC09D3BF8644C2C0479810C1E19B /* Pods-SCVoiceConvert_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B6D154729114D91B094F03E6738C5C /* Pods-SCVoiceConvert_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D84CFAF6B6AFCB6052DCAD8C0ED2D88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		1DCF00D5B58BB9A9E8C82C126CC06901 /* SCVoiceConvert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F79D7276A8D2CFF02EA0A0BF248360 /* SCVoiceConvert-dummy.m */; };
 		220697B3B93D58C3BF945707AEA90E90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		2D8A3CD94627030AF233B4113779CC8A /* SCVoiceConvert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 123B69F601FEBB6295D17F26AB99BEAA /* SCVoiceConvert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FC73116B5BE863AD707ACADA7E5574D /* wav.h in Headers */ = {isa = PBXBuildFile; fileRef = 18DA28C3F59DAAB715DF004611D2D95A /* wav.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41536F451935E6E70B86FC5FF2C8FF71 /* amrFileCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F9714FC1A766A4B393F35118CA97F0 /* amrFileCodec.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		45F56F02F9212A02342CE9C36C1DF3E1 /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = BAA10C1B737F0CC1512F2CC47FBC7183 /* amrFileCodec.mm */; };
 		52776819FDBE0EA825A558FACA1E484B /* VoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 17E57094D256FEA0B9C4D973DF39B430 /* VoiceConverter.mm */; };
 		5DA90E6EF8D7FA6C20EA6E8719C5CA2B /* Pods-SCVoiceConvert_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B83A2F02F2D19CC4082FD17952CD8868 /* Pods-SCVoiceConvert_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7211C37E8C7FE73462D329E5840DB15D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		77A1D2B6923F89212ED743E92E6D2A20 /* Pods-SCVoiceConvert_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAD849EF0D8A4074CA76CA8F9C6F6B4 /* Pods-SCVoiceConvert_Example-dummy.m */; };
-		80588FA260F0E0222408788B9D06D4DE /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = 1980E3FB84C90694CFDA5201601669D4 /* if_rom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F21822A167B0BE0334B1BDE2AFB03ED /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 74A24575F12BFFD0322CFC50695F0108 /* interf_enc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		98FFECA905AD5B2CC8660110AD833A70 /* wav.h in Headers */ = {isa = PBXBuildFile; fileRef = 18DA28C3F59DAAB715DF004611D2D95A /* wav.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		99FF43FC3D244302E563910969A86181 /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = A98CF96E929EC5E890203937EF3656A0 /* interf_dec.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9D5AFE7A410F29F4578F73A8E0322C81 /* Pods-SCVoiceConvert_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E947CAB5088A63B9E249DBC0FE571E5D /* Pods-SCVoiceConvert_Tests-dummy.m */; };
 		A0887E4EA9E245244089393C96E3C073 /* wav.mm in Sources */ = {isa = PBXBuildFile; fileRef = BD328A737C5805F932EA0570FC0D5FA6 /* wav.mm */; };
 		A953894AC3CE872E524A0C2374C3B8A2 /* VoiceConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC99DEC889D9B0677EFA12D94D11B9D /* VoiceConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C158D8E604350A7BABE83FD655FD5E63 /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = 64867741E2FAA8415B985B4FBC7649FB /* dec_if.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D82EE5909076E0ACA5D92926EC56B561 /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 74A24575F12BFFD0322CFC50695F0108 /* interf_enc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4E884BA163EB510A527F248DE04E8AC /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = A98CF96E929EC5E890203937EF3656A0 /* interf_dec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6A307C347A4B282F2BC8E0D8591596B /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = 64867741E2FAA8415B985B4FBC7649FB /* dec_if.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D8A832451786EE0F35D3DFEA5E23E350 /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = 1980E3FB84C90694CFDA5201601669D4 /* if_rom.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -297,14 +297,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0725C6C5B7F0329D329C674DF70689F0 /* amrFileCodec.h in Headers */,
-				C158D8E604350A7BABE83FD655FD5E63 /* dec_if.h in Headers */,
-				80588FA260F0E0222408788B9D06D4DE /* if_rom.h in Headers */,
-				F4E884BA163EB510A527F248DE04E8AC /* interf_dec.h in Headers */,
-				D82EE5909076E0ACA5D92926EC56B561 /* interf_enc.h in Headers */,
+				41536F451935E6E70B86FC5FF2C8FF71 /* amrFileCodec.h in Headers */,
+				D6A307C347A4B282F2BC8E0D8591596B /* dec_if.h in Headers */,
+				D8A832451786EE0F35D3DFEA5E23E350 /* if_rom.h in Headers */,
+				99FF43FC3D244302E563910969A86181 /* interf_dec.h in Headers */,
+				8F21822A167B0BE0334B1BDE2AFB03ED /* interf_enc.h in Headers */,
 				2D8A3CD94627030AF233B4113779CC8A /* SCVoiceConvert-umbrella.h in Headers */,
 				A953894AC3CE872E524A0C2374C3B8A2 /* VoiceConverter.h in Headers */,
-				3FC73116B5BE863AD707ACADA7E5574D /* wav.h in Headers */,
+				98FFECA905AD5B2CC8660110AD833A70 /* wav.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
